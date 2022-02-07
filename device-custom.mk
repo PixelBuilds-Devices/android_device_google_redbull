@@ -221,3 +221,7 @@ PRODUCT_PACKAGES += \
 
 # Properties
 TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
+
+# Now Playing
+PRODUCT_PACKAGES += \
+    NowPlayingOverlay
