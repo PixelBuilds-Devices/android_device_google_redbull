@@ -230,3 +230,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Now Playing
 PRODUCT_PACKAGES += \
     NowPlayingOverlay
+
+# Lineage Health
+include hardware/google/pixel/lineage_health/device.mk
