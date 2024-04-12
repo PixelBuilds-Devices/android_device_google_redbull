@@ -33,8 +33,5 @@ AB_OTA_PARTITIONS += \
 
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 
-# Reserve space for gapps install
--include vendor/lineage/config/BoardConfigReservedSize.mk
-
 # Verified Boot
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
