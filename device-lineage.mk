@@ -29,9 +29,6 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
-# Touch
-include hardware/google/pixel/touch/device.mk
-
 # Build necessary packages for system_ext
 
 # Display
