@@ -774,7 +774,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.systemuicompilerfilter=speed
 
 # Enable stats logging in LMKD
-TARGET_LMKD_STATS_LOG := true
+TARGET_LMKD_STATS_LOG := false
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.gadgethal.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.gadgethal.sh
@@ -906,7 +906,7 @@ persist.vendor.bt.aac_vbr_frm_ctl.enabled=true
 # Set lmkd options
 PRODUCT_PRODUCT_PROPERTIES += \
         ro.config.low_ram ?= false \
-        ro.lmk.log_stats = true \
+        ro.lmk.log_stats = false \
 
 # charger
 PRODUCT_PRODUCT_PROPERTIES += \
