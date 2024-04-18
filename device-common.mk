@@ -809,6 +809,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.enable_gl_backpressure=1
 
+# Configure renderengine backend
+PRODUCT_PRODUCT_PROPERTIES += \
+    debug.renderengine.backend=skiavkthreaded
+
 BOARD_USES_QCNE := true
 
 PRODUCT_COPY_FILES += \
