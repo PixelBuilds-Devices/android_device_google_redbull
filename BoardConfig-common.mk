@@ -210,7 +210,6 @@ BOOT_KERNEL_MODULES := \
 	core_hang_detect.ko \
 	gladiator_hang_detect.ko \
 	minidump_log.ko \
-	memory_dump_v2.ko \
 	dcc_v2.ko \
 	service-locator.ko \
 	service-notifier.ko \
