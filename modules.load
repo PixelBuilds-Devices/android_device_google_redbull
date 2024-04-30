@@ -47,7 +47,6 @@ kernel/drivers/soc/qcom/core_hang_detect.ko
 kernel/drivers/soc/qcom/gladiator_hang_detect.ko
 kernel/drivers/soc/qcom/msm_minidump.ko
 kernel/drivers/soc/qcom/minidump_log.ko
-kernel/drivers/soc/qcom/memory_dump_v2.ko
 kernel/drivers/soc/qcom/dcc_v2.ko
 kernel/drivers/soc/qcom/service-notifier.ko
 kernel/drivers/soc/qcom/service-locator.ko
