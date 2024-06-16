@@ -813,6 +813,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     debug.renderengine.backend=skiavkthreaded
 
+# Enable DeviceAsWebcam support
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.usb.uvc.enabled=true
+
 BOARD_USES_QCNE := true
 
 PRODUCT_COPY_FILES += \
