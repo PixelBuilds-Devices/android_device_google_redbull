@@ -316,6 +316,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.qdcm.mode_combine=1 \
     vendor.display.lbe.supported=1
 
+# Latch unsignaled config
+PRODUCT_PRODUCT_PROPERTIES += \
+    debug.sf.latch_unsignaled=true
+
 # vndservicemanager has been removed from API30 devices (aosp/1235751)
 # but we still need it for display services.
 PRODUCT_PACKAGES += \
