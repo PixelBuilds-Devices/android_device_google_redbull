@@ -786,10 +786,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.enable_gl_backpressure=1
 
-# Configure renderengine backend
-PRODUCT_PRODUCT_PROPERTIES += \
-    debug.renderengine.backend=skiavkthreaded
-
 # Enable DeviceAsWebcam support
 PRODUCT_VENDOR_PROPERTIES += \
     ro.usb.uvc.enabled=true
