@@ -174,7 +174,6 @@ kernel/drivers/thermal/qcom-spmi-temp-alarm.ko
 kernel/drivers/thermal/thermal-tsens.ko
 kernel/drivers/md/dm-user.ko
 kernel/drivers/bluetooth/bluetooth_power.ko
-kernel/drivers/edac/qcom_edac.ko
 kernel/drivers/cpufreq/qcom-cpufreq-hw.ko
 kernel/drivers/cpuidle/msm_pm.ko
 kernel/drivers/leds/leds-qpnp-flash-v2.ko

@@ -331,7 +331,6 @@ BOOT_KERNEL_MODULES := \
 	thermal-tsens.ko \
 	slimbus.ko \
 	bluetooth_power.ko \
-	qcom_edac.ko \
 	qcom-cpufreq-hw.ko \
 	leds-qpnp-flash-common.ko \
 	leds-qpnp-flash-v2.ko \
