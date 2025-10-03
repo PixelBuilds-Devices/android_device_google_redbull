@@ -2,6 +2,6 @@
   {
     "repository": "android_kernel_google_redbull",
     "target_path": "kernel/google/redbull",
-    "branch":"infinity"
+    "branch":"infinity-oss"
   }
 ]
